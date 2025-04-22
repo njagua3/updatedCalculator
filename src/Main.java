@@ -28,7 +28,7 @@ public class Main {
                 Scanner scanner = new Scanner(System.in);// scanner object
 
 
-                double principal; // global scope
+                double principal; // global scope variable declaration
 
                 while(true) {
                     System.out.print("Principal ($1K - $1M): ");//principal label
@@ -40,7 +40,7 @@ public class Main {
                 }
                 // Annual Interest
 
-                double annualInterest;
+                double annualInterest; // variable declaration
                 while(true) {
                     System.out.print("Annual Interest Rate (1 - 30): ");// A.I.R label
                     annualInterest = scanner.nextDouble();// read user input & store
@@ -51,7 +51,7 @@ public class Main {
                 }
                  // YEARS
 
-                 int years;
+                 int years; // variable declaration
                  while (true) {
                      System.out.print("Period (Years): ");
                      years = scanner.nextInt();
